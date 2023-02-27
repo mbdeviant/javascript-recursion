@@ -9,7 +9,6 @@ function fibs(n) {
     return arr;
 }
 
-const arr = [];
 function fibsRec(n) {
     if (n < 2) return n;
     else return fibsRec(n - 1) + fibsRec(n - 2);

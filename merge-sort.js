@@ -24,5 +24,5 @@ function mergeSort(arr1, arr2) {
 
 const array = [7, 3, 5, 1, 2, 4];
 const array2 = [-1, 33, 34, 654, 9, 34];
-console.log(sort(array));
-console.log(sort(array2));
+console.log(sort(array)); // output: [1, 2, 3, 4, 5, 7]
+console.log(sort(array2)); // output: [-1, 9, 33, 34, 34, 654]
